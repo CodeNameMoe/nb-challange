@@ -1,0 +1,19 @@
+.navbar {
+  width: 100%;
+  color: white;
+  position: static;
+  z-index: 3;
+}
+
+.navitems {
+  max-width: 1024px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#icon {
+  filter: invert(100%);
+}

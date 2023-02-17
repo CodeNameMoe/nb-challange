@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-   
-    "start": "babel-node src/pages/api/index.ts --extensions \".ts\""
-,
+    "start": "node index.js",
     "lint": "next lint"
   },
   "dependencies": {
@@ -27,10 +25,6 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
-    "@babel/cli": "^7.20.7",
-    "@babel/core": "^7.20.12",
-    "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.20.2",
     "@types/express": "^4.17.17"
   }
 }
