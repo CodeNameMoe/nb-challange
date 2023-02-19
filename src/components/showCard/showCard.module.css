@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+.cardSection {
+  /* background: rgba(159, 155, 155, 0.233); */
+  width: 188px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.125);
+  background: rgb(242, 250, 0);
+  backdrop-filter: saturate(180%) blur(10px);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.showCard {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.showCard > span {
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+  margin-top: -16px;
+}
+
+.starContainer {
+  text-align: center;
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .cardSection {
+    height: 225px;
+  }
+
+  .starContainer {
+    display: block;
+  }
+}

@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&display=swap");
+
 .navbar {
   width: 100%;
   color: white;
   position: static;
   z-index: 3;
+}
+
+.navitems {
+  font-family: "Mynerve", cursive;
+  color: rgb(255, 255, 0);
+  font-size: 1.5rem;
 }
 
 .navitems {
