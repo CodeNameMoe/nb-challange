@@ -8,9 +8,9 @@ function Hero() {
     <main className={styles.main} >
       <div className={styles.text} >
         <h3>
-          TV Show and Web Series Database
+          Your Ultimate Source for Shows and Listings
         </h3>
-        <p>Create personalised schedules, episodes guides, cast crew and character information</p>
+        {/* <p>Create personalised schedules, episodes guides, cast crew and character information</p> */}
       </div>
       <div className={styles.videoContainer} >
         <video autoPlay muted loop className={styles.videoBackground}>

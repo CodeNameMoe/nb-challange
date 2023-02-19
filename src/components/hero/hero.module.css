@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap");
+
 .main {
-  height: 35vh;
+  height: 27vh;
 }
 
 .text {
@@ -21,6 +23,7 @@
 .text > h3 {
   font-size: 2rem;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 
 .text > P {

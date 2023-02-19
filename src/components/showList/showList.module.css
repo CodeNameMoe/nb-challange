@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+.showlist {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.cardSection {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+}
+
+.showlist > h2 {
+  max-width: 1024px;
+  padding: 2rem 1rem;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 480px) {
+  .showlist > h2 {
+    color: white;
+  }
+}
