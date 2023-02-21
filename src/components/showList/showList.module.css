@@ -3,6 +3,8 @@
 .showlist {
   color: white;
   font-family: "Inter", sans-serif;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .cardSection {
@@ -16,7 +18,6 @@
 }
 
 .showlist > h2 {
-  max-width: 1024px;
   padding: 2rem 1rem;
 }
 
