@@ -26,7 +26,7 @@ type Show = {
 }
 
 
-export async function getShowById(id: string): Promise<Show> {
+async function getShowById(id: string): Promise<Show> {
   const query = gql`
     query getShowById($id: ID!) {
       show(id: $id) {
@@ -59,3 +59,4 @@ export async function getShowById(id: string): Promise<Show> {
 
   return data.show;
 }
+export default getShowById
