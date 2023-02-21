@@ -3,6 +3,7 @@ import styles from "../hero/hero.module.css";
 import Image from 'next/image';
 
 
+
 function Hero() {
   return ( 
     <main className={styles.main} >
