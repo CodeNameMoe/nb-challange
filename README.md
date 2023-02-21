@@ -1,38 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TV BLAND
 
-## Getting Started
+#### Your Ultimate Source for Shows and Listings.
 
-First, run the development server:
+![tvbland](/public/screenshot.PNG)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Client** built with Next.js, Typescript and CSS Modules
+- **Server** built with JavaScript, Node.js, Express.js, GraphQL, TV Maze API.
+- **Deployed** using Render and vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What I Learned
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## GraphQL
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+One of the key takeaways from this project was the use of GraphQL to wrap multiple REST API endpoints. By using GraphQL, we were able to optimize our data fetching by requesting only the specific data we needed, instead of making multiple requests to different endpoints.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+With GraphQL, we could define the data schema that our application would use, and make a single request to our server. This single request would retrieve only the data we needed, instead of the multiple requests required when working with REST APIs.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## TypeScript
 
-## Learn More
+Another key learning from this project was the use of TypeScript. TypeScript is a strongly typed superset of JavaScript that allows us to write cleaner, more robust code. With TypeScript, we can catch errors during development, and avoid many common bugs that can arise when working with JavaScript.
 
-To learn more about Next.js, take a look at the following resources:
+Using TypeScript allowed us to write code that was more organized, easier to read, and more maintainable. By catching errors during development, we were able to ensure that our code was more reliable, and avoid many of the issues that can arise when working with dynamic languages.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Overall, this project provided a great opportunity to learn about the benefits of GraphQL and TypeScript, and how they can be used together to build more efficient, reliable applications.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Setup and Running
 
-## Deploy on Vercel
+- Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  - Node
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js Frontend
+
+  - Clone repo `https://github.com/CodeNameMoe/nb-challange`
+  - Run `npm install`
+  - Run `npm run dev`
+
+- Server
+  - Clone repo `https://github.com/CodeNameMoe/graphql-rest-api-wrapper`
+  - Run `npm install`
+  - Run `npm run start`
+
+## Developer
+
+- Mohamed Ali - [GitHub](https://github.com/CodeNameMoe)
+
+## License
+
+Copyright (c) 2021 Mohamed Ali https://github.com/CodeNameMoe
