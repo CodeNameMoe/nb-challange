@@ -127,7 +127,7 @@ function ShowDetails() {
                   <section className={styles.cast}>
                     <h2>Starring</h2>
                   
-                      {show.cast.map((castMember) => (
+                      {show.cast.map((castMember: { name: string, characterName: string, characterImage: string }) => (
                         <div className={styles.castCard} key={castMember.name}>
                           <div className={styles.imageCropper}><Image width={100}
           height={100} className={styles.castImage} src={castMember.characterImage} alt="castImage" /></div>
