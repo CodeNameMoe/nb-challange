@@ -9,7 +9,7 @@ function NavBar() {
     <nav className={styles.navbar}>
       <section className={styles.navitems}>
         <Link className={styles.logoLink} href="/">
-          <h2 >TV BLAND</h2>
+          <h2 className={styles.logo}  >TV BLAND</h2>
         </Link>
         <Image
             id='icon'
