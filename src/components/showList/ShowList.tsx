@@ -16,9 +16,10 @@ const GET_SHOWS = gql`
 `;
 
 function ShowList() {
-
+  
   
   const { loading, error, data } = useQuery(GET_SHOWS);
+  console.log(data)
 
 
 
