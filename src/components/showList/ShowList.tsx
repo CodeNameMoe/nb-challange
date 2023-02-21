@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import { useQuery, gql } from '@apollo/client';
 import ShowCard, { Show } from '../showCard/ShowCard';
 import styles from "../showList/showList.module.css"
-import { motion } from "framer-motion"
 import Image from 'next/image';
 
 const GET_SHOWS = gql`
@@ -14,6 +13,11 @@ const GET_SHOWS = gql`
     }
   }
 `;
+
+type ShowListProps = {
+  shows: Show[];
+};
+
 
 function ShowList() {
   

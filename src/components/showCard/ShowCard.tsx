@@ -7,7 +7,7 @@ import Link from "next/link";
 import { motion } from "framer-motion"
 import { useRouter } from "next/router";
 
-interface Show {
+export interface Show {
   id: number;
   name: string;
   image: string | null; // Add null as a possible value for image
