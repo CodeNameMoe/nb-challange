@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { useQuery, gql } from '@apollo/client';
-import Show  from '../showCard/ShowCard';
+import ShowCard, { Show } from '../showCard/ShowCard';
 import styles from "../showList/showList.module.css"
-import ShowCard from '../showCard/ShowCard'
 import { motion } from "framer-motion"
 import Image from 'next/image';
 
