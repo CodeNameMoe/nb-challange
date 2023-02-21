@@ -4,6 +4,7 @@ import Show  from '../showCard/ShowCard';
 import styles from "../showList/showList.module.css"
 import ShowCard from '../showCard/ShowCard'
 import { motion } from "framer-motion"
+import Image from 'next/image';
 
 const GET_SHOWS = gql`
   query {
@@ -26,7 +27,8 @@ function ShowList() {
 if (loading) {
   return (
     <div className={styles.loading}>
-       <img src="/assets/loading.gif" alt="My Icon" />
+       <Image width={400}
+          height={400} src="/assets/loading.gif" alt="My Icon" />
     </div>
          
   );

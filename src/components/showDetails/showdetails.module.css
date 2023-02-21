@@ -131,6 +131,11 @@
     max-height: 300px;
     padding: 0 1rem;
   }
+
+  .column p {
+    overflow-wrap: break-word;
+  }
+
   .cast {
     padding: 2rem;
   }

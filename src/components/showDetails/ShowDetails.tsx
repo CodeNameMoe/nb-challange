@@ -76,12 +76,12 @@ function ShowDetails() {
     <div className={styles.main}>
       <section className={styles.showInfo}>
         <div className={styles.cover}>
-          <img
+          <Image
             className={styles.image}
             src={show.image}
             alt="Picture of the author"
-            // width={0}
-            // height={0}
+            width={300}
+            height={421.3}
           />
         </div>
         <div className={styles.column} >
@@ -129,7 +129,8 @@ function ShowDetails() {
                   
                       {show.cast.map((castMember) => (
                         <div className={styles.castCard} key={castMember.name}>
-                          <div className={styles.imageCropper}><img className={styles.castImage} src={castMember.characterImage} alt="castImage" /></div>
+                          <div className={styles.imageCropper}><Image width={100}
+          height={100} className={styles.castImage} src={castMember.characterImage} alt="castImage" /></div>
                           <div className={styles.castName} >
                            <p id={styles["dark"]}>{castMember.name}</p>
                            <p>{castMember.characterName}</p>
@@ -142,7 +143,8 @@ function ShowDetails() {
       </section>
       
        <footer className={styles.footer}>
-      <p>TV Bland - your one-stop destination for all your favorite TV shows! From drama to comedy, we've got you covered. Don't miss out on our comprehensive TV schedule and never miss a show again. Stay up to date with the latest news and reviews of your favorite programs. TV Bland &copy; 2023</p>
+      <p>TV Bland - your one-stop destination for all your favorite TV shows! From drama to comedy, we&apos;ve got you covered. Don&apos;t miss out on our comprehensive TV schedule and never miss a show again. Stay up to date with the latest news and reviews of your favorite programs. TV Bland &copy; 2023
+</p>
     </footer>
     </div>
   );
