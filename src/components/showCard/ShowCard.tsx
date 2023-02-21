@@ -62,7 +62,7 @@ function ShowCard(props: ShowCardProps) {
 
   return (
     <motion.div className={styles.cardSection} initial={{opacity:0, translateX:-50, translateY:-50}} animate={{opacity:1, translateX:0, translateY:0}} transition={{duration: 0.1, delay: index * 0.1 }} custom={index} >
-      <Link onClick={handleCardClick}  href={`/ShowPage/${show.id}`}>
+      <Link className={styles.Link} onClick={handleCardClick}  href={`/ShowPage/${show.id}`}>
         
           <section className={styles.showCard}>
             <Image

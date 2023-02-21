@@ -38,6 +38,11 @@
   display: none;
 }
 
+.Link {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (min-width: 480px) {
   .cardSection {
     height: 225px;
